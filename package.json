@@ -2,7 +2,12 @@
   "name": "hello_frontend",
   "version": "0.1.0",
   "description": "Internet Computer starter application",
-  "keywords": ["Internet Computer", "Motoko", "JavaScript", "Canister"],
+  "keywords": [
+    "Internet Computer",
+    "Motoko",
+    "JavaScript",
+    "Canister"
+  ],
   "scripts": {
     "build": "webpack",
     "prebuild": "npm run generate",
@@ -15,10 +20,12 @@
     "@dfinity/candid": "0.15.5",
     "@dfinity/principal": "0.15.5",
     "assert": "2.0.0",
+    "autoprefixer": "^10.4.14",
     "buffer": "6.0.3",
     "copy-webpack-plugin": "^11.0.0",
     "events": "3.3.0",
     "html-webpack-plugin": "5.5.0",
+    "postcss": "^8.4.23",
     "process": "0.11.10",
     "stream-browserify": "3.0.0",
     "terser-webpack-plugin": "^5.3.3",
